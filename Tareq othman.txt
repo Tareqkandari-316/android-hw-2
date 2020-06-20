@@ -1,0 +1,27 @@
+public class HelloWorld{
+     public static void main(String []args){
+        
+        
+        
+     int [] studentsPercentage = {30,45,63,69,70,80,84,90,90,92};
+     
+        String letterGrades [];
+        letterGrades = new String [10];
+        for ( int t = 0 ; studentsPercentage < t ; t++)
+        letterGrades = o ();
+     }
+     public static String o (int t){
+         
+            if (t >= 90 ){
+             return "A";
+         }else if (t >= 80 && t < 90) {
+             return"B";
+         }else if (t >= 70 && t < 70){
+             return"c";
+         }else if (t >= 60 && t < 60){
+             return "D";
+         }else  {
+            return"F";
+         }
+     }
+}
